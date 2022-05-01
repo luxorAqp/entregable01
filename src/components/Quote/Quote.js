@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import quotes from "../../quotes.json";
+import React from "react";
 import "./Quote.css";
 const Quote = ({ color, quote }) => {
   console.log("quote ==>" + quote);
