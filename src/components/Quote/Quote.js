@@ -1,7 +1,6 @@
 import React from "react";
 import "./Quote.css";
 const Quote = ({ color, quote }) => {
-  console.log("quote ==>" + quote);
   return (
     <body style={{ background: `${color} ` }}>
       <div className="quote-container">
@@ -27,8 +26,3 @@ const Quote = ({ color, quote }) => {
 };
 
 export default Quote;
-
-{
-  /* <h1 style={{ color: `${color}` }}>{quote.quote}</h1>
-      <h2 style={{ color: `${color}` }}> {quote.author}</h2> */
-}
