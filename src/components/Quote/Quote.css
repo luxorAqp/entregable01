@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+.quote-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote-item {
+  background-color: aliceblue;
+  width: 35rem;
+  height: 5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote-item:nth-child(1) {
+  height: 10rem;
+}
+.head-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 90%;
+  font-size: 2rem;
+}
+
+.quote-item:nth-child(2) {
+  justify-content: end;
+  align-items: flex-end;
+}
+.head-item:nth-child(1) {
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 20%;
+  font-size: 480%;
+}
+.head-item:nth-child(2) {
+  width: 80%;
+  font-weight: 700;
+}
+
+.author-item {
+  margin: 5px;
+  font-weight: 500;
+}
